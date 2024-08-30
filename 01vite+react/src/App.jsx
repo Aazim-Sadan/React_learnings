@@ -1,6 +1,9 @@
 
 function App() {
-<h1>Lets start React+Vite</h1>
+    return(
+        <h1>Lets start React+Vite</h1>
+    )
+
 }
 
 export default App
