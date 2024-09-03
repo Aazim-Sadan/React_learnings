@@ -12,7 +12,9 @@ function App() {
 
   const currencyInfo = useCurrencyInfo(from)
 
-  const options = Object.keys(currencyInfo)
+  
+// Key of API
+  const options = Object.keys(currencyInfo) 
 
   const swap = () => {
     setFrom(to)
@@ -21,8 +23,8 @@ function App() {
     setAmount(convertedAmount)
   }
   
-  const convert = () => {
-    setConvertedAmount(amount * currencyInfo[to])
+  const convert = () => { // It will return final amount
+    setConvertedAmount(amount * currencyInfo[to]) 
   }
 
   return (
