@@ -39,6 +39,7 @@ function TextForm(props) {
             <p>{text}</p>
         </div>
         </>
+        
     )
 }
 
