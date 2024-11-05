@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function About() {
+function About(props) {
 
     const [myStyle, setMyStyle] = useState(
         {
@@ -33,7 +33,7 @@ function About() {
 
     return (
         <div className='container'>
-            <h1 classNameName='my-3'>About Us</h1>
+            <h1 classNameName='my-3' style = {{color : props.mode==='dark'?'white':'black'}}>About Us</h1>
             <div className="accordion" id="accordionExample">
                 <div className="accordion-item">
                     <h2 className="accordion-header">
