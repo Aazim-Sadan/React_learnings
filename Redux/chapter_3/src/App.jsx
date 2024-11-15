@@ -1,8 +1,9 @@
-import './App.css'
-import { useSelector } from 'react-redux'
-import Account from './components/Account'
-import Bonus from './components/Bonus'
+import './App.css';
+import { useSelector } from 'react-redux';
+import Account from './components/Account';
+import Bonus from './components/Bonus';
 import Reward from './components/Reward';
+import Admin from './components/Admin';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Account></Account>
         <Bonus></Bonus>
         <Reward></Reward>
+        <Admin></Admin>
       </div>
 
 
